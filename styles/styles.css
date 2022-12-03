@@ -29,3 +29,11 @@
 	src: url(../fonts/Avenir-Heavy-800.woff2) format(woff2);
 	font-display: swap;
 }
+
+body {
+	font-family: "Lato", "Arials", sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	color: #424242;
+	background-color: #ffffff;
+}
