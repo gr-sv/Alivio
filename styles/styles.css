@@ -183,3 +183,26 @@ body {
 	font-size: 11px;
 	line-height: 17px;
 }
+
+/* Footer */
+
+.page-footer {
+	background-color: #245852;
+}
+
+.footer-menu-link {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+	color: #FFFFFF;
+	background-color: #245852;
+	text-align: center;
+	text-decoration: none;
+}
+
+.link-to-main-page {
+	font-family: "Avenir", Arial, sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 55px;
+}
