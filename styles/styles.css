@@ -143,3 +143,43 @@ body {
 	line-height: 39px;
 	color: #FFFFFF
 }
+
+/* Product */
+
+.product {
+	background-color: #FFFFFF;
+}
+
+.product-text {
+	color: #484848;
+}
+
+.customer-case {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.customer-case-title {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.customer-name {
+	font-size: 12px;
+	line-height: 19px;
+	text-align: center;
+}
+
+.customer-contents-title {
+	font-family: "Georgia", "Times New Roman", serif;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.customer-contents-item {
+	font-size: 11px;
+	line-height: 17px;
+}
