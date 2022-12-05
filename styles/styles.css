@@ -32,6 +32,7 @@
 
 body {
 	font-family: "Lato", "Arial", sans-serif;
+	font-weight: 400;
 	font-size: 20px;
 	line-height: 30px;
 	color: #424242;
@@ -50,14 +51,24 @@ body {
 .title-look {
 	font-family: "Georgia", "Times New Roman", serif;
 	font-weight: 700;
-	font-size: 65px;
-	line-height: 74px;
+	font-size: 50px;
+	line-height: 79px;
 	color: #01996D;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 38px;
 }
 
 /* Header */
 
 /* Navigation */
+
+.navigation {
+	background-color: #FFFFFF;
+}
 
 .navigation-link {
 	font-weight: 500;
@@ -84,10 +95,31 @@ body {
 	background-size: 100% auto;
 }
 
+.promo-title-look {
+	font-size: 65px;
+	line-height: 74px;
+}
+
 .promo-text {
 	line-height: 31px;
 	color: #484848;
 }
 
+/* Steps */
 
+.steps {
+	background-color: #FFFFFF;
+}
 
+.steps-text {
+	font-weight: 500;
+}
+
+.steps-item-title {
+	font-family: "Georgia", "Times New Roman", serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 45px;
+	color: #000000;
+	text-align: center;
+}
