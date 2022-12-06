@@ -151,6 +151,15 @@ body {
 	background-color: #FFFFFF;
 }
 
+.steps-wrapper {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.steps-title-look {
+	width: 584px;
+}
+
 .steps-item-title {
 	font-family: "Georgia", "Times New Roman", serif;
 	font-weight: 700;
@@ -160,7 +169,23 @@ body {
 	text-align: center;
 }
 
+.steps-list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.steps-item {
+	max-width: 390px;
+}
+
 .steps-text {
+	font-weight: 500;
+	max-width: 671px;
+}
+
+.steps-list-text {
 	font-weight: 500;
 }
 
