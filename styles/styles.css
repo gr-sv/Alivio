@@ -76,7 +76,25 @@ body {
 /* Navigation */
 
 .navigation {
+	display: flex;
+	width: 1440px;
+	margin: 0 auto;
 	background-color: #FFFFFF;
+}
+
+.logo {
+	margin-right: 173px;
+}
+
+.navigation-list {
+	margin: 0;
+	padding: 0;
+	width: 557px;
+}
+
+.navigation-user {
+	max-width: 277px;
+	margin-left: auto;
 }
 
 .navigation-link {
