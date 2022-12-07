@@ -195,15 +195,22 @@ body {
 	background-color: #245852;
 }
 
+.video-wrapper {
+	width: 1440px;
+	margin: 0 auto;
+}
+
 .video-title-look {
 	color: #FFFFFF;
+	max-width: 580px;
 }
 
 .video-text {
 	font-weight: 600;
 	font-size: 25px;
 	line-height: 39px;
-	color: #FFFFFF
+	color: #FFFFFF;
+	max-width: 580px;
 }
 
 /* Product */
