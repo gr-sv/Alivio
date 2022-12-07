@@ -223,13 +223,31 @@ body {
 	background-color: #FFFFFF;
 }
 
+.product-wrapper {
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product-about-wrapper {
+	width: 584px;
+	margin-left: 87px;
+}
+
 .product-text {
 	color: #484848;
+}
+
+.product-photo {
+	order: -1;
+	margin-left: 61px;
 }
 
 .customer-case {
 	color: #000000;
 	background-color: #FFFFFF;
+	width: 296px;
 }
 
 .customer-case-title {
@@ -238,6 +256,11 @@ body {
 	line-height: 23px;
 	text-align: center;
 	text-decoration: underline;
+}
+
+.customer-case-avatar {
+	display: block;
+	margin: 0 auto;
 }
 
 .customer-name {
