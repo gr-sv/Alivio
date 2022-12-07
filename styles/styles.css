@@ -196,13 +196,18 @@ body {
 }
 
 .video-wrapper {
-	width: 1440px;
+	width: 1507px;
 	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.video-descroption {
+	max-width: 580px;
 }
 
 .video-title-look {
 	color: #FFFFFF;
-	max-width: 580px;
 }
 
 .video-text {
@@ -210,7 +215,6 @@ body {
 	font-size: 25px;
 	line-height: 39px;
 	color: #FFFFFF;
-	max-width: 580px;
 }
 
 /* Product */
