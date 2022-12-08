@@ -272,7 +272,13 @@ body {
 .customer-contents-title {
 	font-family: "Georgia", "Times New Roman", serif;
 	font-size: 16px;
-	line-height: 25px;
+	line-height: 25px;margin-left: 61px;
+}
+
+.customer-contents-list {
+	margin: 0;
+	margin-left: 61px;
+	padding-left: 15px;
 }
 
 .customer-contents-item {
