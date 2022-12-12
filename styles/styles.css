@@ -106,6 +106,7 @@ body {
 .navigation-item {
     margin-top: 17px;
     margin-right: 72px;
+    margin-bottom: 17px;
 }
 
 .navigation-user {
@@ -170,12 +171,14 @@ body {
 }
 
 .promo-title-look {
+    margin: 0;
 	font-size: 65px;
 	line-height: 74px;
 	max-width: 440px;
 }
 
 .promo-text {
+    margin: 0;
 	line-height: 31px;
 	color: #484848;
 	max-width: 420px;
