@@ -59,6 +59,7 @@ body {
 }
 
 .button {
+    padding: 13px 50px;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 25px;
@@ -93,8 +94,6 @@ body {
 	background-color: #FFFFFF;
 }
 
-
-
 .navigation-list {
     display: flex;
     flex-wrap: wrap;
@@ -105,17 +104,18 @@ body {
 }
 
 .navigation-item {
+    margin-top: 17px;
     margin-right: 72px;
 }
 
 .navigation-user {
-	max-width: 277px;
+	max-width: 278px;
 	margin-left: auto;
 }
 
 .navigation-link {
     display: block;
-    padding: 30px 0;
+    padding: 13px 0;
 	font-weight: 500;
 	line-height: 24px;
 	color: #292929;
@@ -129,10 +129,20 @@ body {
 }
 
 .logo-link {
+    margin-top: 17px;
 	margin-right: 173px;
 }
 
+.navigation-user .navigation-item {
+    margin-right: 35px;
+}
+
+.navigation-user .navigation-item:nth-child(2n) {
+    margin-right: 0;
+}
+
 .navigation-button {
+    padding: 13px 50px;
 	font-weight: 400;
 	line-height: 25px;
 	color: #FFFFFF;
