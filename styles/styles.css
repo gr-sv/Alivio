@@ -216,17 +216,23 @@ body {
 }
 
 .steps-text {
-    margin: 0;
     margin-top: 58px;
+    margin-bottom: 0;
 }
 
 .steps-item-title {
+    margin-top: 53px;
+    margin-bottom: 55px;
 	font-family: "Georgia", "Times New Roman", serif;
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 45px;
 	color: #000000;
 	text-align: center;
+}
+
+.step-three .steps-item-title {
+    margin-bottom: 46px;
 }
 
 .steps-list {
@@ -246,7 +252,8 @@ body {
 	max-width: 671px;
 }
 
-.steps-list-text {
+.steps-item-text {
+    margin: 0;
 	font-weight: 500;
 }
 
