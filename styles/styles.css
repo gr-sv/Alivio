@@ -196,6 +196,7 @@ body {
 .steps-wrapper {
 	width: 1440px;
 	margin: 0 auto;
+    padding-top: 169px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -203,6 +204,20 @@ body {
 .steps-title-wrapper {
 	width: 584px;
 	margin-right: 136px;
+    margin-bottom: 52px;
+}
+
+.steps-title {
+    margin: 0;
+}
+
+.steps-title-look {
+    margin: 0;
+}
+
+.steps-text {
+    margin: 0;
+    margin-top: 58px;
 }
 
 .steps-item-title {
