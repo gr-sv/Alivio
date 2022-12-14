@@ -164,17 +164,14 @@ body {
 }
 
 .steps-wrapper {
-	width: 1440px;
+	width: 1400px;
 	margin: 0 auto;
-    padding-top: 169px;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .steps-title-wrapper {
 	width: 584px;
-	margin-right: 136px;
-    margin-bottom: 52px;
 }
 
 .steps-title {
@@ -186,13 +183,11 @@ body {
 }
 
 .steps-text {
-    margin-top: 58px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .steps-item-title {
-    margin-top: 53px;
-    margin-bottom: 55px;
+	margin: 0;
 	font-family: "Georgia", "Times New Roman", serif;
 	font-weight: 700;
 	font-size: 30px;
@@ -201,12 +196,8 @@ body {
 	text-align: center;
 }
 
-.step-three .steps-item-title {
-    margin-bottom: 46px;
-}
-
 .steps-list {
-	width: 1440px;
+	width: 1400px;
 	margin: 0;
 	padding: 0;
 	display: flex;
