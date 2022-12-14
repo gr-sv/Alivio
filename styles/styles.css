@@ -59,7 +59,6 @@ body {
 }
 
 .button {
-    padding: 13px 50px;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 25px;
@@ -89,7 +88,7 @@ body {
 
 .navigation {
 	display: flex;
-	width: 1440px;
+	width: 1400px;
 	margin: 0 auto;
 	background-color: #FFFFFF;
 }
@@ -103,20 +102,12 @@ body {
     list-style-type: none;
 }
 
-.navigation-item {
-    margin-top: 17px;
-    margin-right: 72px;
-    margin-bottom: 17px;
-}
-
 .navigation-user {
 	max-width: 278px;
-	margin-left: auto;
 }
 
 .navigation-link {
     display: block;
-    padding: 13px 0;
 	font-weight: 500;
 	line-height: 24px;
 	color: #292929;
@@ -125,25 +116,7 @@ body {
 	text-decoration: none;
 }
 
-.navigation-item:nth-child(4n) {
-    margin-right: 0;
-}
-
-.logo-link {
-    margin-top: 17px;
-	margin-right: 173px;
-}
-
-.navigation-user .navigation-item {
-    margin-right: 35px;
-}
-
-.navigation-user .navigation-item:nth-child(2n) {
-    margin-right: 0;
-}
-
 .navigation-button {
-    padding: 13px 50px;
 	font-weight: 400;
 	line-height: 25px;
 	color: #FFFFFF;
