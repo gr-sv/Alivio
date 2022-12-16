@@ -176,11 +176,13 @@ body {
 
 .steps {
 	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .steps-wrapper {
 	width: 1400px;
-	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 }
