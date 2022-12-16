@@ -145,11 +145,17 @@ body {
 	background-image: url(../images/promo-background.jpeg);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
+	height: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .promo-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
 	width: 1400px;
-	margin: 0 auto;
 }
 
 .promo-title-look {
