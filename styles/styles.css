@@ -204,6 +204,8 @@ body {
 
 .steps-text {
     margin: 0;
+    font-weight: 500;
+	max-width: 671px;
 }
 
 .steps-item-title {
@@ -229,9 +231,12 @@ body {
     list-style: none;
 }
 
-.steps-text {
-	font-weight: 500;
-	max-width: 671px;
+.steps-item-number {
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 225px;
+    color: rgba(1, 153, 109, 0.2);
+    text-align: center;
 }
 
 .steps-item-text {
