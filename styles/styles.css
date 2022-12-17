@@ -208,6 +208,16 @@ body {
 	max-width: 671px;
 }
 
+/* Steps-list */
+
+.steps-list {
+    width: inherit;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
 .steps-item-title {
 	margin: 0;
 	font-family: "Georgia", "Times New Roman", serif;
@@ -218,25 +228,21 @@ body {
 	text-align: center;
 }
 
-.steps-list {
-    width: inherit;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: space-between;
-}
-
 .steps-item {
+    display: flex;
+    flex-direction: column;
 	width: 30%;
     list-style: none;
 }
 
 .steps-item-number {
+    font-family: "Georgia", "Times New Roman", serif;
     font-weight: 400;
     font-size: 150px;
     line-height: 225px;
     color: rgba(1, 153, 109, 0.2);
     text-align: center;
+    order: -1;
 }
 
 .steps-item-text {
