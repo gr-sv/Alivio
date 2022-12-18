@@ -231,7 +231,7 @@ body {
 .steps-item {
     display: flex;
     flex-direction: column;
-	width: 30%;
+	max-width: 30%;
     list-style: none;
 }
 
@@ -253,25 +253,32 @@ body {
 /* Video */
 
 .video {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: #245852;
 }
 
 .video-wrapper {
-	width: 1507px;
-	margin: 0 auto;
+	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
-.video-descroption {
+.video-description {
 	max-width: 580px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 .video-title-look {
+	margin: 0;
 	color: #FFFFFF;
 }
 
 .video-text {
+	margin: 0;
 	font-weight: 600;
 	font-size: 25px;
 	line-height: 39px;
