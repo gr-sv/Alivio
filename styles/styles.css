@@ -327,12 +327,15 @@ body {
 /* Customer case */
 
 .customer-case {
+    display: flex;
+    flex-direction: column;
 	color: #000000;
 	background-color: #FFFFFF;
 	width: 296px;
 }
 
 .customer-case-title {
+    margin: 0;
 	font-weight: 600;
 	font-size: 15px;
 	line-height: 23px;
@@ -346,12 +349,14 @@ body {
 }
 
 .customer-name {
+    margin: 0;
 	font-size: 12px;
 	line-height: 19px;
 	text-align: center;
 }
 
 .customer-contents-title {
+    margin: 0;
 	font-family: "Georgia", "Times New Roman", serif;
 	font-size: 16px;
 	line-height: 25px;
@@ -359,6 +364,7 @@ body {
 
 .customer-contents-list {
 	margin: 0;
+    padding: 0;
 }
 
 .customer-contents-item {
