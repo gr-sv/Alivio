@@ -377,17 +377,25 @@ body {
 /* Footer-menu */
 
 .page-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	background-color: #245852;
 }
 
 .page-footer-wrapper {
-	width: 1440px;
-	margin: 0 auto;
+	width: 1400px;
 }
 
 .footer-menu-list {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 	margin: 0;
 	padding: 0;
+    list-style: none;
 }
 
 .footer-menu-link {
