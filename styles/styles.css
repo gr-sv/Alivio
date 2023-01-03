@@ -197,6 +197,15 @@ body {
 	flex-wrap: wrap;
 }
 
+.steps-title-n-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+
+}
+
 .steps-title-wrapper {
     display: flex;
     flex-direction: column;
