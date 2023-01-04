@@ -258,6 +258,13 @@ body {
     list-style: none;
 }
 
+.steps-title-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
 .steps-item-number {
     font-family: "Georgia", "Times New Roman", serif;
     font-weight: 400;
