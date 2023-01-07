@@ -62,6 +62,7 @@ body {
 }
 
 .button {
+	padding: 20px 50px;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 25px;
@@ -127,6 +128,8 @@ body {
 }
 
 .navigation-link {
+	margin-top: 30px;
+	margin-bottom: 31px;
     display: block;
 	font-weight: 500;
 	line-height: 24px;
@@ -137,6 +140,8 @@ body {
 }
 
 .navigation-button {
+	margin-top: 17px;
+	margin-bottom: 17px;
 	font-weight: 400;
 	line-height: 25px;
 	color: #FFFFFF;
