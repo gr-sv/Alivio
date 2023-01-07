@@ -62,6 +62,7 @@ body {
 }
 
 .button {
+	display: block;
 	padding: 20px 50px;
 	font-weight: 400;
 	font-size: 20px;
@@ -175,6 +176,7 @@ body {
 
 .promo-title-look {
     margin: 0;
+	margin-bottom: 30px;
 	font-size: 65px;
 	line-height: 74px;
 	max-width: 440px;
@@ -182,6 +184,7 @@ body {
 
 .promo-text {
     margin: 0;
+	margin-bottom: 18px;
 	line-height: 31px;
 	color: #484848;
 	max-width: 420px;
