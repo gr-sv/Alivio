@@ -321,7 +321,7 @@ body {
 	max-width: 580px;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: flex-start;
 }
 
