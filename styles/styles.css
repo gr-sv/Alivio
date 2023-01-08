@@ -201,11 +201,13 @@ body {
 }
 
 .steps-wrapper {
+    margin-bottom: 51px;
     justify-content: space-between;
 	flex-wrap: wrap;
 }
 
-.steps-title-n-text {
+.steps-title-text {
+    margin-bottom: 52px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -267,10 +269,11 @@ body {
 }
 
 .steps-title-number {
+    margin-bottom: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: center;
 }
 
 .steps-item-number {
@@ -286,6 +289,18 @@ body {
 .steps-item-text {
     margin: 0;
 	font-weight: 500;
+}
+
+.step-one .steps-item-text {
+    margin-bottom: 60px;
+}
+
+.step-two .steps-item-text {
+    margin-bottom: 37px;
+}
+
+.step-three .steps-item-text {
+    margin-bottom: 48px;
 }
 
 /* Video */
