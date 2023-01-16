@@ -318,6 +318,7 @@ body {
 }
 
 .video-description {
+	margin-right: 31px;
 	max-width: 580px;
 	display: flex;
 	flex-direction: column;
@@ -327,11 +328,13 @@ body {
 
 .video-title-look {
 	margin: 0;
+	margin-bottom: 33px;
 	color: #FFFFFF;
 }
 
 .video-text {
 	margin: 0;
+	margin-bottom: 57px;
 	font-weight: 600;
 	font-size: 25px;
 	line-height: 39px;
