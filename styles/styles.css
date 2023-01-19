@@ -397,21 +397,25 @@ body {
 }
 
 .customer-case-title {
-    margin: 0;
+    margin: 0 auto;
+	margin-bottom: 14px;
+	width: 131px;
 	font-weight: 600;
 	font-size: 15px;
 	line-height: 23px;
 	text-align: center;
-	text-decoration: underline;
+	border-bottom: 1px solid #000000;
 }
 
 .customer-case-avatar {
 	display: block;
 	margin: 0 auto;
+	margin-bottom: 10px;
 }
 
 .customer-name {
     margin: 0;
+	margin-bottom: 20px;
 	font-size: 12px;
 	line-height: 19px;
 	text-align: center;
@@ -419,6 +423,8 @@ body {
 
 .customer-contents-title {
     margin: 0;
+	margin-left: 61px;
+	margin-bottom: 16px;
 	font-family: "Georgia", "Times New Roman", serif;
 	font-size: 16px;
 	line-height: 25px;
@@ -426,13 +432,21 @@ body {
 
 .customer-contents-list {
 	margin: 0;
+	margin-left: 61px;
+	margin-bottom: 30px;
     padding: 0;
+	padding-left: 15px;
 }
 
 .customer-contents-item {
 	font-size: 11px;
 	line-height: 17px;
 }
+
+.customer-contents-item:first-child {
+	margin-bottom: 16px;
+}
+
 
 /* Footer */
 
