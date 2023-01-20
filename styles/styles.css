@@ -185,6 +185,7 @@ body {
 .promo-text {
     margin: 0;
 	margin-bottom: 18px;
+	padding-bottom: 51px;
 	line-height: 31px;
 	color: #484848;
 	max-width: 420px;
