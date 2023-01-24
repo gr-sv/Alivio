@@ -305,6 +305,16 @@ body {
     margin-bottom: 48px;
 }
 
+.step-one {
+	background-color: #FFFFFF;
+	background-image: url(../images/step_1.jpeg);
+	background-repeat: no-repeat;
+	background-size: 390px 492px;
+	background-position: left bottom;
+	padding-bottom: 490px;
+
+}
+
 /* Video */
 
 .video {
