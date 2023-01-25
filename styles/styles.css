@@ -196,6 +196,8 @@ body {
 /* Steps */
 
 .steps {
+	padding-top: 169px;
+    padding-bottom: 51px;
 	background-color: #FFFFFF;
 	display: flex;
 	flex-direction: row;
@@ -204,14 +206,12 @@ body {
 }
 
 .steps-wrapper {
-    margin-bottom: 51px;
     justify-content: space-between;
 	flex-wrap: wrap;
 }
 
 .steps-title-text {
     margin-bottom: 52px;
-	padding-top: 169px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
