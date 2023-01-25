@@ -211,6 +211,7 @@ body {
 
 .steps-title-text {
     margin-bottom: 52px;
+	padding-top: 169px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
