@@ -321,6 +321,8 @@ body {
 /* Video */
 
 .video {
+	padding-top: 229px;
+	padding-bottom: 177px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -359,6 +361,8 @@ body {
 /* Product */
 
 .product {
+	padding-top: 120px;
+	padding-bottom: 168px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
