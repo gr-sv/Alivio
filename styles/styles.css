@@ -384,6 +384,17 @@ body {
 	color: #FFFFFF;
 }
 
+.video-poster-wrapper {
+    width: 896px;
+    position: relative;
+}
+
+.video-play {
+    position: absolute;
+    top: 216px;
+    left: 410px;
+}
+
 /* Product */
 
 .product {
