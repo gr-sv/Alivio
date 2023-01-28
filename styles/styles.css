@@ -444,6 +444,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    position: relative;
 }
 
 /* Customer case */
@@ -456,6 +457,9 @@ body {
 	color: #000000;
 	background-color: #FFFFFF;
 	width: 296px;
+    position: absolute;
+    left: -61px;
+    bottom: -75px;
 }
 
 .customer-case-title {
