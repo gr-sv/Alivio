@@ -251,6 +251,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .steps-item {
