@@ -207,7 +207,7 @@ body {
 
 .steps-wrapper {
     justify-content: space-between;
-	flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .steps-title-text {
@@ -216,7 +216,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1400px;
 
 }
 
