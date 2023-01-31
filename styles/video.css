@@ -1,0 +1,50 @@
+/* Video */
+
+.video {
+	padding-top: 229px;
+	padding-bottom: 177px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #245852;
+}
+
+.video-wrapper {
+	justify-content: center;
+}
+
+.video-description {
+	margin-right: 31px;
+	max-width: 580px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.video-title-look {
+	margin: 0;
+	margin-bottom: 33px;
+	color: #FFFFFF;
+}
+
+.video-text {
+	margin: 0;
+	margin-bottom: 57px;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 39px;
+	color: #FFFFFF;
+}
+
+.video-poster-wrapper {
+    width: 896px;
+    position: relative;
+}
+
+.video-play {
+    position: absolute;
+    top: 216px;
+    left: 410px;
+}
