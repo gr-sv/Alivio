@@ -67,9 +67,6 @@
 	max-width: 30%;
     list-style: none;
 	background-color: #FFFFFF;
-	background-repeat: no-repeat;
-	background-size: 390px 492px;
-	background-position: left bottom;
 }
 
 .steps-title-number {
@@ -131,20 +128,4 @@
 
 .step-three .steps-item-text {
     margin-bottom: 48px;
-}
-
-.step-one {
-
-	background-image: url(../images/step_1.jpeg);
-	padding-bottom: 490px;
-}
-
-.step-two {
-	background-image: url(../images/step_2.jpeg);
-	padding-bottom: 467px;
-}
-
-.step-three {
-	background-image: url(../images/step_3.jpeg);
-	padding-bottom: 478px;
 }
