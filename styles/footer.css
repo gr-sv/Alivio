@@ -41,6 +41,16 @@
 	text-decoration: none;
 }
 
+.footer-menu-link:hover {
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+.footer-menu-link:active {
+    color: #c2c2c2;
+    text-decoration: underline;
+}
+
 .link-to-main-page {
 	font-family: "Avenir", Arial, sans-serif;
 	font-weight: 800;
