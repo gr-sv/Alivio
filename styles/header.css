@@ -45,6 +45,14 @@
 	text-decoration: none;
 }
 
+.navigation-link:hover {
+    color: #01805b;
+}
+
+.navigation-link:active {
+    color: #014d37;
+}
+
 .navigation-button {
 	margin-top: 17px;
 	margin-bottom: 17px;
@@ -52,4 +60,12 @@
 	line-height: 25px;
 	color: #FFFFFF;
 	background-color: #01996D;
+}
+
+.navigation-button:hover {
+    color: #FFFFFF;
+}
+
+.navigation-button:active {
+    color: #014d37;
 }
