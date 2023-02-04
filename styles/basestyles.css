@@ -41,6 +41,15 @@ body {
 	text-decoration: none;
 }
 
+.button:hover {
+    background-color: #01805b;
+}
+
+.button:active {
+    color: #014d37;
+    background-color: #01805b;
+}
+
 .title-look {
 	font-family: "Georgia", "Times New Roman", serif;
 	font-weight: 700;
