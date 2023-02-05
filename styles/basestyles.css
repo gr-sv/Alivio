@@ -50,6 +50,10 @@ body {
     background-color: #01805b;
 }
 
+.button:focus {
+    outline: 3px solid #7B61FF;
+}
+
 .title-look {
 	font-family: "Georgia", "Times New Roman", serif;
 	font-weight: 700;

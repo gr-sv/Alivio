@@ -53,6 +53,10 @@
     color: #014d37;
 }
 
+.navigation-link:focus {
+    outline: 3px solid #7B61FF;
+}
+
 .navigation-button {
 	margin-top: 17px;
 	margin-bottom: 17px;

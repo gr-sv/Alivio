@@ -51,6 +51,10 @@
     text-decoration: underline;
 }
 
+.footer-menu-link:focus {
+    outline: 3px solid #7B61FF;
+}
+
 .link-to-main-page {
 	font-family: "Avenir", Arial, sans-serif;
 	font-weight: 800;
