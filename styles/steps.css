@@ -130,6 +130,10 @@
     margin-bottom: 48px;
 }
 
+.steps-item-image {
+    border-radius: 12px;
+}
+
 .step-two {
     margin-top: 255px;
 }

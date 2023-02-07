@@ -43,6 +43,10 @@
     position: relative;
 }
 
+.video-poster {
+    border-radius: 16px;
+}
+
 .video-play {
     position: absolute;
     top: 216px;
