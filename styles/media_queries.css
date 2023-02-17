@@ -1,3 +1,24 @@
+@media only screen and (max-width: 1400px) {
+    .steps-item-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .steps-text {
+        max-width: 550px;
+    }
+
+    .video-poster {
+        width: 100%;
+        height: auto;
+    }
+
+    .customer-photo {
+        width: 100%;
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
 
 }
