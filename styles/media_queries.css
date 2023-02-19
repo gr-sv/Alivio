@@ -1,30 +1,47 @@
 @media only screen and (max-width: 1400px) {
+	.customer-case {
+		left: -20px;
+	}
+
+	.video-poster {
+        width: 100%;
+        height: auto;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
     .steps-item-image {
         width: 100%;
         height: auto;
     }
 
     .steps-text {
-        max-width: 550px;
+        max-width: 48%;
     }
 
-    .video-poster {
-        width: 100%;
-        height: auto;
-    }
+    .step-two .steps-item-title {
+		left: 125px;
+		text-align: left;
+	}
 
     .customer-photo {
         width: 100%;
         height: auto;
     }
+
+	.product-about-wrapper {
+		max-width: 40%;
+	}
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1180px) {
+	.video-wrapper {
+		flex-direction: column;
+	}
 
-}
-
-@media only screen and (max-width: 992px) {
-
+	.video-description {
+		max-width: 100%;
+	}
 }
 
 @media only screen and (max-width: 768px) {
