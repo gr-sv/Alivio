@@ -73,3 +73,9 @@
 .navigation-button:active {
     color: #014d37;
 }
+
+@media screen and (max-width: 1200px) {
+    .navigation-list {
+        width: 45%;
+    }
+}
