@@ -52,3 +52,32 @@
     top: 216px;
     left: 410px;
 }
+
+@media only screen and (max-width: 1400px) {
+    .video-description {
+        width: 100%;
+    }
+
+	.video-poster {
+        width: 100%;
+        height: auto;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+    .video {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+	.video-wrapper {
+		flex-direction: column;
+        width: auto;
+	}
+
+	.video-description {
+		max-width: 100%;
+        margin-right: 0;
+		margin-bottom: 33px;
+	}
+}

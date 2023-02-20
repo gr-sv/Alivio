@@ -2,11 +2,6 @@
 	.customer-case {
 		left: -40px;
 	}
-
-	.video-poster {
-        width: 100%;
-        height: auto;
-	}
 }
 
 @media only screen and (max-width: 1300px) {
@@ -39,24 +34,8 @@
 }
 
 @media only screen and (max-width: 1180px) {
-    .video {
-        padding-top: 150px;
-        padding-bottom: 100px;
-    }
-
-	.video-wrapper {
-		flex-direction: column;
-        width: auto;
-	}
-
-	.video-description {
-		max-width: 100%;
-        margin-right: 0;
-		margin-bottom: 33px;
-	}
-
     .customer-case {
-		left: -20px;
+	    left: -20px;
 	}
 }
 
