@@ -34,7 +34,7 @@
 	max-width: 420px;
 }
 
-@media screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300px) {
     .promo {
         height: 100%;
         padding-top: 12%;
