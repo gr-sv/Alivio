@@ -141,3 +141,49 @@
 .step-three {
     margin-top: 22px;
 }
+
+@media only screen and (max-width: 1335px) {
+    .steps-item-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .steps-text {
+        max-width: 48%;
+    }
+
+    .step-two .steps-item-title {
+		left: 125px;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+    .steps-text {
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .steps {
+        padding-top: 120px;
+        padding-bottom: 35px;
+    }
+
+    .steps-title-text {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 35px;
+    }
+
+    .steps-text {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .step-two .steps-item-title {
+		left: 120px;
+		text-align: left;
+	}
+}
