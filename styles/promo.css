@@ -33,3 +33,11 @@
 	color: #484848;
 	max-width: 420px;
 }
+
+@media screen and (max-width: 1300px) {
+    .promo {
+        height: 100%;
+        padding-top: 12%;
+        padding-bottom: 21%;
+    }
+}
