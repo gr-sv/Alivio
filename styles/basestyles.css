@@ -77,3 +77,9 @@ body {
 	justify-content: flex-start;
 	align-items: stretch;
 }
+
+@media only screen and (max-width: 1439px) {
+    .wrapper {
+        width: 100%;
+    }
+}
