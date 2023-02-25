@@ -85,7 +85,7 @@
 @media only screen and (max-width: 769px) {
     .navigation-burger {
         /* display: none; */
-        width: 113px;
+        width: 129px;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -97,15 +97,19 @@
     }
 
     .navigation-link {
-        font-size: 15px;
-        line-height: 18px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 0;
+        margin-bottom: 8px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .navigation-item:first-child {
+        margin-top: 7px;
     }
 
     .navigation-button {
-        padding: 10px 25px;
+        padding: 14px 35px;
     }
 }
