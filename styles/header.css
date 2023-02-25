@@ -84,6 +84,28 @@
 
 @media only screen and (max-width: 769px) {
     .navigation-burger {
+        /* display: none; */
+        width: 113px;
         flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation-list {
+        max-width: fit-content;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation-link {
+        font-size: 15px;
+        line-height: 18px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navigation-button {
+        padding: 10px 25px;
     }
 }
