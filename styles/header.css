@@ -85,7 +85,7 @@
 @media only screen and (max-width: 769px) {
     .navigation-burger {
         /* display: none; */
-        width: 129px;
+        width: 20%;
         flex-direction: column;
         align-items: flex-start;
     }

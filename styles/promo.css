@@ -35,20 +35,22 @@
 }
 
 @media screen and (max-width: 769px) {
+    .promo {
+        height: 100%;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        background-position: center;
+    }
+
     .promo-title-look {
         font-size: 46px;
 	    line-height: 52px;
+        margin-bottom: 21px;
     }
 
     .promo-text {
         line-height: 22px;
+        padding-bottom: 36px;
+        margin-bottom: 13px;
     }
 }
-
-/* @media only screen and (max-width: 1300px) {
-    .promo {
-        height: 100%;
-        padding-top: 12%;
-        padding-bottom: 21%;
-    }
-} */

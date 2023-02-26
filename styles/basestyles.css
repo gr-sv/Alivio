@@ -85,12 +85,14 @@ body {
 }
 
 @media only screen and (max-width: 769px) {
-    /* .body {
+    body {
         font-size: 14px;
 	    line-height: 21px;
-    } */
+    }
 
     .button {
+        font-size: 14px;
+        line-height: 18px;
         padding: 14px 35px;
     }
 
