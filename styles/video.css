@@ -92,7 +92,9 @@
     }
 
     .video-play {
-        top: 149px;
-        left: 327px;
+        width: 10%;
+        height: auto;
+        top: 42%;
+        left: 44%;
     }
 }
