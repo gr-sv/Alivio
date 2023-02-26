@@ -151,10 +151,63 @@
     .steps-title-text {
         flex-direction: column;
         align-items: flex-start;
-        margin-bottom: 36px;
+        margin-bottom: 0;
     }
 
     .steps-text {
         margin-top: 31px;
+    }
+
+    .steps-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps-item {
+        max-width: 80%;
+    }
+
+    .steps-item-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .steps-title-number {
+        margin-bottom: 7px;
+    }
+
+    .steps-item-title {
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 32px;
+        left: 62px;
+        bottom: 32px;
+    }
+
+    .steps-item-number {
+        font-size: 105px;
+        line-height: 158px;
+    }
+
+    .step-one .steps-item-text,
+    .step-two .steps-item-text,
+    .step-three .steps-item-text {
+        margin-bottom: 30px;
+    }
+
+    .step-two {
+        margin-top: 0;
+    }
+
+    .step-two .steps-item-title {
+        left: 55px;
+    }
+
+    .step-three {
+        margin-top: 0;
+    }
+
+    .step-three .steps-item-title {
+        left: 87px;
     }
 }
