@@ -72,15 +72,15 @@
         margin-bottom: 42px;
     }
 
-    .link-to-main-page {
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 39px;
-    }
-
     .footer-menu-link {
         font-weight: 500;
         font-size: 18px;
         line-height: 21px;
+    }
+
+    .link-to-main-page {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 39px;
     }
 }
