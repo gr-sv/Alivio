@@ -61,3 +61,26 @@
 	font-size: 40px;
 	line-height: 55px;
 }
+
+@media only screen and (max-width: 769px) {
+    .page-footer {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+
+    .footer-menu-item {
+        margin-bottom: 42px;
+    }
+
+    .link-to-main-page {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 39px;
+    }
+
+    .footer-menu-link {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
