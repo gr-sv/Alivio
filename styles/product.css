@@ -203,5 +203,20 @@
     .customer-contents-item:first-child {
         margin-bottom: 11px;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    .product {
+        padding-bottom: 25%;
+    }
+
+    .customer-wrapper {
+        align-self: flex-end;
+    }
+
+    .customer-case {
+        left: -137px;
+        bottom: -80px;
+    }
 
 }
