@@ -83,20 +83,38 @@
     color: #014d37;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 770px) {
     .burger-menu {
         display: none;
     }
 }
 
 @media only screen and (max-width: 769px) {
+    .burger-line {
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color: #01996D;
+        position: absolute;
+        top: 21px;
+        right: 15px;
+    }
+
+    .line-second, .line-third {
+        top: 29px;
+    }
+
+    .line-fourth {
+        top: 37px;
+    }
+
     .navigation-burger {
         width: 100%;
         padding: 0 15px 15px 15px;
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
-        top: 69px;
+        top: 68px;
         left: 0;
         background-color: #FFFFFF;
     }
