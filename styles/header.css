@@ -120,6 +120,7 @@
         position: absolute;
         top: 21px;
         right: 15px;
+        transition: .5s all;
     }
 
     .line-second, .line-third {
@@ -128,6 +129,22 @@
 
     .line-fourth {
         top: 37px;
+    }
+
+    #burger-click:checked ~ .burger-menu .line-first {
+        display: none;
+    }
+
+    #burger-click:checked ~ .burger-menu .line-second {
+        transform: rotate(45deg);
+    }
+
+    #burger-click:checked ~ .burger-menu .line-third {
+        transform: rotate(-45deg);
+    }
+
+    #burger-click:checked ~ .burger-menu .line-fourth {
+        display: none;
     }
 
     .navigation-burger {
