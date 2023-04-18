@@ -87,9 +87,27 @@
     .burger-menu {
         display: none;
     }
+
+    .burger-label {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 769px) {
+    .burger-label {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        width: 30px;
+        height: 100%;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .burger-checkbox {
+        display: none;
+    }
+
     .burger-line {
         display: block;
         width: 30px;
@@ -109,6 +127,7 @@
     }
 
     .navigation-burger {
+        box-sizing: border-box;
         width: 100%;
         padding: 0 15px 15px 15px;
         flex-direction: column;
